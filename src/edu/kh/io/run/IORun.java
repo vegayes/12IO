@@ -1,5 +1,6 @@
 package edu.kh.io.run;
 
+import edu.kh.io.model.service.IOExam;
 import edu.kh.io.model.service.IOService;
 
 public class IORun {
@@ -9,9 +10,17 @@ public class IORun {
 		IOService service = new IOService();
 		
 //		service.output1();
-		service.output2();
+//		service.output2();
 //		service.input1();
-		service.input2();
+//		service.input2();
+		
+		
+		IOExam exam = new IOExam();
+		
+//		exam.output1();
+//		exam.output2();
+//		exam.input1();
+		exam.input2();
 		
 		
 	}
