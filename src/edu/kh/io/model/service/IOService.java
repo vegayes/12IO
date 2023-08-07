@@ -88,7 +88,7 @@ public class IOService {
 			
 			// close() 구문을 수행하면, 통로에 남아있는 내용을 모두 내보내고 통로를 없앤다! 
 	
-			// 문자 기반은 왜 한 글자씩 안잘라도 되는가? 
+			// 문자 기반은 왜 한 글자씩 안잘라도 되는가?  == 버퍼형식이라서?
 			
 		} catch(IOException e) {
 			e.printStackTrace();

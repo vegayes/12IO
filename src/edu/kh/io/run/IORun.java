@@ -2,6 +2,7 @@ package edu.kh.io.run;
 
 import edu.kh.io.model.service.IOExam;
 import edu.kh.io.model.service.IOService;
+import edu.kh.io.model.service.Last;
 
 public class IORun {
 
@@ -20,7 +21,14 @@ public class IORun {
 //		exam.output1();
 //		exam.output2();
 //		exam.input1();
-		exam.input2();
+//		exam.input2();
+		
+		Last last = new Last();
+		
+		last.output1();
+		last.output2();
+		last.input1();
+		
 		
 		
 	}
